@@ -71,7 +71,8 @@ static bool node_group_operator_active_poll(bContext *C)
                  "ShaderNodeTree",
                  "CompositorNodeTree",
                  "TextureNodeTree",
-                 "GeometryNodeTree")) {
+                 "GeometryNodeTree",
+                 "StoryBoardNodeTree")) {
       return true;
     }
   }

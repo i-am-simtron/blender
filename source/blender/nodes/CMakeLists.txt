@@ -6,6 +6,7 @@ add_subdirectory(function)
 add_subdirectory(geometry)
 add_subdirectory(shader)
 add_subdirectory(texture)
+add_subdirectory(storyboard)
 
 set(INC
   .
@@ -15,6 +16,7 @@ set(INC
   intern
   shader
   texture
+  storyboard
   ../editors/include
   ../blenkernel
   ../blenlib
@@ -72,6 +74,7 @@ set(SRC
   NOD_socket_search_link.hh
   NOD_static_types.h
   NOD_texture.h
+  NOD_storyboard.h
   intern/node_common.h
   intern/node_exec.h
   intern/node_util.h
@@ -85,6 +88,7 @@ set(LIB
   bf_nodes_geometry
   bf_nodes_shader
   bf_nodes_texture
+  bf_nodes_storyboard
 )
 
 if(WITH_BULLET)

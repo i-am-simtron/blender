@@ -76,6 +76,7 @@
 #include "NOD_shader.h"
 #include "NOD_socket.h"
 #include "NOD_texture.h"
+#include "NOD_storyboard.h"
 
 #include "DEG_depsgraph.h"
 #include "DEG_depsgraph_build.h"
@@ -4885,6 +4886,7 @@ void BKE_node_system_init()
   register_node_tree_type_sh();
   register_node_tree_type_tex();
   register_node_tree_type_geo();
+  register_node_tree_type_storyboard();
 
   register_node_type_frame();
   register_node_type_reroute();
